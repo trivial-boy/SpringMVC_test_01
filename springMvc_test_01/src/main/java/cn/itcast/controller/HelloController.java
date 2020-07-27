@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @RequestMapping(path = "/hello")
     public String Hello(){
-        System.out.println("HELLO SpringMvc");
         return "success";
     }
 }
